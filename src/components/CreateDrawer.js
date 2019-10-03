@@ -12,19 +12,19 @@ import EmojiTravelIcon from "@atlaskit/icon/glyph/emoji/travel";
 
 const createItems = [
   {
-    title: null,
+    title: 'Course Administrator Functions',
     items: [
-      ['/#event', 'Create Event', 'Create Event', CalendarIcon],
-      ['/#nature', 'Create Nature', 'Create Nature', EmojiNatureIcon],
-      ['/#idea', 'Create Idea', 'Create Idea', EmojiObjectsIcon],
-      ['/#travel', 'Create Travel Plans', 'Create Travel Plans', EmojiTravelIcon],
+      ['/#createtopic', 'Create Topic', 'Create Event', CalendarIcon],
+      ['/#createassignment', 'Create Assignment', 'Create Nature', EmojiNatureIcon],
+      ['/#creategoal', 'Create Goal', 'Create Idea', EmojiObjectsIcon],
+      ['/#startevent', 'Start Live Event', 'Create Travel Plans', EmojiTravelIcon],
     ],
   },
   {
-    title: 'Group with title',
+    title: 'Student Actions',
     items: [
-      ['/#branch', <span>Create a <strong>Bitbucket branch</strong></span>, 'Bitbucket branch', BitbucketBranchesIcon],
-      ['/#page', <span>Create a <strong>Confluence page</strong></span>, 'Confluence page', PageIcon],
+      ['/#this', <span>Do things <strong>like this</strong></span>, 'Bitbucket branch', BitbucketBranchesIcon],
+      ['/#that', <span>Or Do things <strong>Like that</strong></span>, 'Confluence page', PageIcon],
     ],
   },
 ];
