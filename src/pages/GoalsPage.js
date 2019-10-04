@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import MainSection from '../components/MainSection';
 import ContentWrapper from '../components/ContentWrapper';
 import PageTitle from '../components/PageTitle';
-import GoalItem from '../components/GoalItem';
+import GoalItem from '../components/goals/GoalItem';
 import Page, { Grid, GridColumn } from '@atlaskit/page';
 import styled from 'styled-components';
 
