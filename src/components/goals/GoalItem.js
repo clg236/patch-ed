@@ -57,10 +57,11 @@ const Progress = styled.div`
 
 const GoalsStyle = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom: 5px;
+    padding-left: 15px;
     font-size: .8em;
     margin: 0;
 `;
